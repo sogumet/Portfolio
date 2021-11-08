@@ -20,7 +20,7 @@ html, body {
 /* Placement */
 
 body {
-    background-color: burlywood;
+    background-color: rgb(241, 226, 205);
     display: flex;
     flex-direction: column;
 }
@@ -40,7 +40,38 @@ body {
     justify-content: space-between;
 }
 
-/* Title */
+div.nav li:first-child, div.nav li:last-child{
+    background-color: chartreuse;
+}
+div.nav li:first-child a:hover, div.nav li:last-child:hover{
+    background-color:darkcyan;
+    color: white;
+}
+.one {
+    box-sizing: content-box;
+    height: 100px;
+    width: 600px;
+    background-color: black;
+}
+.two {
+    box-sizing: content-box;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    padding: 3em;
+}
+.three {
+    box-sizing: border-box;
+    width: 50vw;
+    height: 100px;
+    background-color: red;
+}
+.four {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    box-sizing: border-box;
+}
 
 .title, .logo {
     padding: 3em 3em 3em 0;
@@ -72,6 +103,7 @@ body {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    background-color: hotpink;
 }
 
 .footer a {

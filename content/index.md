@@ -3,9 +3,11 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Om mig
 ==========================
 
-The source for this page is in `content/index.md`.
+Jag heter Kent Sjöberg. Bor med fru och barn i Göteborg, som har varit min hemort i princip hela livet.
+Läste till Sjökapten på 80-talet och har verkat inom sjöfartsnäringen sedan dess.
+Mesta tiden har jag arbetat som lots men, tidigare även i flera andra befattningar. Numera arbetar jag  deltid som befälhavare i ett färjerederi när jag inte roar mig med att försöka lära mig att programmera.  
+![Jag](image/kent.jpg)
 
-This is a sample home page written in markdown with some frontmatter defined.
