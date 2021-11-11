@@ -1,0 +1,22 @@
+.header,
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $header-color;
+}
+
+.title,
+.logo {
+    padding: 1em;
+}
+
+.nav li:first-child,
+.nav li:last-child {
+    background-color: rgb(125, 240, 10);
+}
+
+.nav li:first-child a:hover,
+.nav li:last-child a:hover {
+    background-color: rgb(5, 146, 146);
+    color: rgb(236, 227, 227);
+}

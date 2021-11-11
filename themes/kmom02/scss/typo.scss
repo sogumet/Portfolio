@@ -1,0 +1,47 @@
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+    color: #444;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: 1.25em;
+    margin-bottom: 1.75rem; /* 1.4 * 1.25em vår baseline */
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
