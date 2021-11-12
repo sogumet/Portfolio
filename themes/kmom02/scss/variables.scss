@@ -1,7 +1,7 @@
 $font-color: #000;
-$font-alternative-color: #fff;
-$accent-color: #ee6c4d;
 $background-color: #d3e8ee;
-$background-alternative-color: #e0fbfc;
-$footer-color: rgb(139, 139, 148);
+$footer-color: rgb(74, 213, 255);
 $header-color: rgb(74, 213, 255);
+$main-font-size: 1rem;
+$main-line-height: 1.4;
+$magic-number: $main-font-size * $main-line-height;

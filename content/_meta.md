@@ -4,8 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/sogumet/Portfolio
-      icon: github
+      icon: fab fa-github
     - title: WhatsApp.
       url: https://web.whatsapp.com/
-      icon: whatsapp
+      icon: fab fa-whatsapp
 ---

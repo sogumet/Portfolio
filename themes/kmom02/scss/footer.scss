@@ -4,13 +4,12 @@
     border-top: 1px solid #222;
     background-color: $footer-color;
     padding: 0.25em;
-}
 
-.footer a {
-    color: #222;
+    a {
+        color: rgb(0, 0, 0);    
+    }
     
-}
-
-.footer .social {
-    font-size: 2rem;
+    .social {
+        font-size: 2rem;
+    }
 }
