@@ -1,14 +1,26 @@
-@media (max-width: 767px) {
-    .title,
-    .logo {
-        padding: 1em 1em 1em 0;
-    }
-
+@media (max-width: 810px) {
     .title {
+        padding: 1em 1em 1em 0;
         min-width: 50%;
     }
 
     .logo {
         max-width: 30%;
+    }
+
+    .old-fashioned,
+    .modern,
+    .worst-ever {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1080px) {
+    p {
+        width: 100%;
+    }
+    
+    .black {
+        width: 75%;
     }
 }

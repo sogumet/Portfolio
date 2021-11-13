@@ -19,9 +19,7 @@ Nästa hyss han gjorde var när han i grönsakssoppan dök på huvet ner og sen 
 Olika boxar
 ============
 
-<div class=one></div>
-<div class=two></div>
-<div class=three></div>
-<div class=four></div>
-
-
+<div class=black></div>
+<div class=blue></div>
+<div class=red></div>
+<div class=green></div>

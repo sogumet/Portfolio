@@ -8,4 +8,7 @@ Social:
     - title: WhatsApp.
       url: https://web.whatsapp.com/
       icon: fab fa-whatsapp
+    - title: Sass.
+      url: https://sass-lang.com/
+      icon: fab fa-sass
 ---
