@@ -16,12 +16,14 @@ html {
 body {
     height: 100%;
     min-height: 600px;
-    background-color: $background-color;
     display: flex;
     flex-direction: column;
 }
 
 .main {
+    width: 80%;
+    margin: 40px auto 20px;
     flex: 1 0 auto;
     padding: 1rem;
+    background-color: $background-color;
 }

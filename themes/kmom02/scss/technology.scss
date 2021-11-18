@@ -1,0 +1,32 @@
+.landingpage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.techtitle {
+    margin-bottom: 2rem;
+}
+
+.techbox {
+    height: 256px;
+    width: 256px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
+}
+
+.techbox p {
+    margin-left: 4px;
+}
+
+.techcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.techlinks {
+    width: 33%;
+    margin-top: 56px;
+}
+

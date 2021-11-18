@@ -1,3 +1,17 @@
+
+
+@media (max-width: 1080px) {
+    .black {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .landingpage {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 810px) {
     .title {
         padding: 1em 1em 1em 0;
@@ -15,12 +29,12 @@
     }
 }
 
-@media (max-width: 1080px) {
-    p {
-        width: 100%;
+@media (max-width: 660px) {
+    .landingpage {
+        grid-template-columns: 1fr;
     }
-    
-    .black {
-        width: 75%;
+
+    .techcontainer {
+        gap: 1rem;
     }
 }
