@@ -1,5 +1,5 @@
 ---
-Title: Grid
+Title: GRID
 Description: Testar Grid
 ---
 

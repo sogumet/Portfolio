@@ -1,5 +1,5 @@
 ---
-Title: About
+Title: ABOUT
 Description: About this site
 ---
 
