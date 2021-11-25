@@ -11,7 +11,7 @@
 .techbox {
     height: 256px;
     width: 256px;
-    background-color: rgb(255, 255, 255);
+    background-color: $background-color-box;
     box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
 }
 
@@ -30,3 +30,10 @@
     margin-top: 56px;
 }
 
+.techlinks a {
+    color: $techlinkscolor;
+}
+
+.techlinks a:visited {
+    color: $techlinkscolorvisited;
+}

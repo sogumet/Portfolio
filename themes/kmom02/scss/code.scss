@@ -5,8 +5,9 @@ code {
     padding: 0.1em 0.2em;
     border: 1px solid #ccc;
     border-radius: 0.3em;
-    background: #f5f5f5;
+    background: $codebackground;
     font-family: monospace;
+    color: $codecolor;
     font-size: 0.85rem;
     line-height: 1.9824;
 }
@@ -15,7 +16,7 @@ pre {
     padding: 0 1em;
     border: 1px solid #ccc;
     border-radius: 0.3em;
-    background: #f5f5f5;
+    background: $codebackground;
 
     code {
         display: block;

@@ -2,13 +2,21 @@
 
 <body>
     {% include 'incl/nav.twig' %}
-    <div class="main" role="main">
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
+        <div class="main" role="main">
+    {% if current_page.id == "technology/index" %}
         <h1 class="techtitle">Technology</h1>
+    {% else %}
+        <h1 class="techtitle">Report</h1>
+        {% endif %}
         <div class="landingpage">
             {{ content }}
         </div>
     </div>
-    
     {% include 'incl/footer.twig' %}
 </body>
 

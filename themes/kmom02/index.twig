@@ -2,7 +2,11 @@
 
 <body>
     {% include 'incl/nav.twig' %}
-
+    {% if config.session.theme == "dark" %}
+        </a><link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css"></a>
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css"></a>
+    {% endif %}
     <div class="main" role="main">
         {{ content }}
     </div>

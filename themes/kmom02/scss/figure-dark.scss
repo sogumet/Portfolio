@@ -1,0 +1,32 @@
+figure {
+    margin-left: 0;
+}
+
+@mixin framed {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    box-shadow: 10px 10px 5px $shaddow-color;
+
+    figcaption {
+        background-color: #222;
+        color: rgb(241, 222, 184);
+        font: italic smaller sans-serif;
+        padding: 3px;
+        text-align: center;
+    }
+}
+
+.framed {
+    @include framed;
+}
+
+.tech {
+    filter: grayscale(80%);
+}
+
+.logo {
+    filter: invert(100%);
+}

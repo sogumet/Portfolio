@@ -2,10 +2,15 @@
 
 <body>
     {% include 'incl/nav.twig' %}
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
     <div class="main" role="main">
         <div class="techcontainer">
             <aside class="techlinks">
-                {% for page in pages("technology") if page.id!=current_page.id %}
+                {% for page in pages("technology") %}
                         <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
                 {% endfor %}
             </aside>

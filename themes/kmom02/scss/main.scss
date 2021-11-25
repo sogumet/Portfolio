@@ -18,6 +18,7 @@ body {
     min-height: 600px;
     display: flex;
     flex-direction: column;
+    background-color: $body-background-color;
 }
 
 .main {
