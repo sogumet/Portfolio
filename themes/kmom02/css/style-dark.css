@@ -6470,9 +6470,9 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #CAB685;
+  background: #cab685;
   font-family: monospace;
-  color: #403D36;
+  color: #403d36;
   font-size: 0.85rem;
   line-height: 1.9824;
 }
@@ -6481,7 +6481,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #CAB685;
+  background: #cab685;
 }
 pre code {
   display: block;
@@ -6497,7 +6497,7 @@ pre code {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #BFB7A1;
+  background-color: #bfb7a1;
 }
 
 .title,
@@ -6506,7 +6506,7 @@ pre code {
 }
 
 .nav li:hover {
-  background-color: #8C8676;
+  background-color: #8c8676;
 }
 
 .nav li {
@@ -6540,7 +6540,7 @@ body {
   min-height: 600px;
   display: flex;
   flex-direction: column;
-  background-color: #8C8676;
+  background-color: #8c8676;
 }
 
 .main {
@@ -6548,14 +6548,18 @@ body {
   margin: 40px auto 20px;
   flex: 1 0 auto;
   padding: 1rem;
-  background-color: #403D36;
+  background-color: #403d36;
+}
+
+img, embed, object, video {
+  max-width: 100%;
 }
 
 .footer {
   display: flex;
   justify-content: flex-end;
   border-top: 1px solid #222;
-  background-color: #BFB7A1;
+  background-color: #bfb7a1;
   padding: 0.25em;
 }
 .footer a {
@@ -6569,7 +6573,7 @@ body {
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.4rem;
-  color: #CAB685;
+  color: #cab685;
 }
 
 h1,
@@ -6645,7 +6649,7 @@ li {
   box-sizing: content-box;
   height: 100px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 5px #50462C;
+  box-shadow: 10px 10px 5px #50462c;
   width: 600px;
   background-color: black;
 }
@@ -6654,7 +6658,7 @@ li {
   box-sizing: content-box;
   height: 100px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 5px #50462C;
+  box-shadow: 10px 10px 5px #50462c;
   width: 80%;
   background-color: blue;
 }
@@ -6663,7 +6667,7 @@ li {
   box-sizing: content-box;
   height: 100px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 5px #50462C;
+  box-shadow: 10px 10px 5px #50462c;
   width: 50vw;
   background-color: red;
 }
@@ -6672,7 +6676,7 @@ li {
   box-sizing: content-box;
   height: 100px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 5px #50462C;
+  box-shadow: 10px 10px 5px #50462c;
   width: 90%;
   background-color: lime;
 }
@@ -6687,7 +6691,7 @@ figure {
   flex-flow: column;
   padding: 5px;
   max-width: 220px;
-  box-shadow: 10px 10px 5px #50462C;
+  box-shadow: 10px 10px 5px #50462c;
 }
 .framed figcaption {
   background-color: #222;
@@ -6744,7 +6748,7 @@ figure {
 .techbox {
   height: 256px;
   width: 256px;
-  background-color: #CAB685;
+  background-color: #cab685;
   box-shadow: rgba(0, 0, 0, 0.4) 0 2px 4px, rgba(0, 0, 0, 0.3) 0 7px 13px -3px, rgba(0, 0, 0, 0.2) 0 -3px 0 inset;
 }
 
@@ -6764,11 +6768,11 @@ figure {
 }
 
 .techlinks a {
-  color: #BFB7A1;
+  color: #bfb7a1;
 }
 
 .techlinks a:visited {
-  color: #8C8676;
+  color: #8c8676;
 }
 
 .analysisbox {
@@ -6777,11 +6781,11 @@ figure {
 }
 
 .navlinks a {
-  color: #BFB7A1;
+  color: #bfb7a1;
 }
 
 .navlinks a:visited {
-  color: #8C8676;
+  color: #8c8676;
 }
 
 @media (max-width: 1080px) {

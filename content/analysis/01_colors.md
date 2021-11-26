@@ -22,9 +22,8 @@ Resultat
 -----------------------  
    
 # MTR #
-<figure>
-    <img src="../image/mtr.jpg" alt="MTR"></img>
-</figure>
+
+<img src="../image/mtr.jpg" alt="MTR"></img>
 
 __Färgpalett__:  
 Analog
@@ -50,9 +49,7 @@ Ja, jag tycker färgval och typografi motsvarar den profil som jag tror företag
 
 # SAS #
 
-<figure>
-    <img src="../image/sas.jpg" alt="SAS"></img>
-</figure>
+<img src="../image/sas.jpg" alt="SAS"></img>
 
 
 __Färgpalett__:  
@@ -78,9 +75,9 @@ Ja, jag tycker färgval och typografi motsvarar den profil som jag tror företag
 
 # Stena Line #
 
-<figure>
-    <img src="../image/stena.jpg" alt="SAS"></img>
-</figure>
+
+<img src="../image/stena.jpg" alt="SAS"></img>
+
 
 
 __Färgpalett__:  
