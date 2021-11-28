@@ -7,7 +7,6 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 5px;
-    max-width: 220px;
     box-shadow: 10px 10px 5px $shaddow-color;
 
     figcaption {
@@ -21,4 +20,8 @@ figure {
 
 .framed {
     @include framed;
+}
+
+.restricted {
+    max-width: 220px;
 }

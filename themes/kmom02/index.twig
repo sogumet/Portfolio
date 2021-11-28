@@ -2,6 +2,12 @@
 
 <body>
     {% include 'incl/nav.twig' %}
+    {# <a href="{{ base_url }}/image/sheep.jpg" target="_blank">
+        <picture>
+            <source media="(min-width: 668px)" srcset="{{ base_url }}/image/sheep.jpg">
+            <img src="{{ base_url }}/image/sheep.jpg&w=667" alt="A sheep">
+        </picture>
+    </a> #}
     {% if config.session.theme == "dark" %}
         </a><link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css"></a>
     {% else %}

@@ -10,9 +10,11 @@
         <div class="main" role="main">
     {% if current_page.id == "technology/index" %}
         <h1 class="techtitle">Technology</h1>
+    {% elseif current_page.id == "gallery/index" %}
+        <h1 class="techtitle">Gallery</h1>
     {% else %}
         <h1 class="techtitle">Report</h1>
-        {% endif %}
+    {% endif %}
         <div class="landingpage">
             {{ content }}
         </div>

@@ -6551,8 +6551,46 @@ body {
   background-color: #403d36;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.embed-container-data {
+  position: relative;
+  height: 17rem;
+  overflow: hidden;
+  max-width: 64rem;
+}
+
+.embed-container-data iframe,
+.embed-container-data object,
+.embed-container-data embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 18rem;
 }
 
 .footer {
@@ -6649,7 +6687,7 @@ li {
   box-sizing: content-box;
   height: 100px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 5px #50462c;
+  box-shadow: 10px 10px 5px #635e51;
   width: 600px;
   background-color: black;
 }
@@ -6658,7 +6696,7 @@ li {
   box-sizing: content-box;
   height: 100px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 5px #50462c;
+  box-shadow: 10px 10px 5px #635e51;
   width: 80%;
   background-color: blue;
 }
@@ -6667,7 +6705,7 @@ li {
   box-sizing: content-box;
   height: 100px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 5px #50462c;
+  box-shadow: 10px 10px 5px #635e51;
   width: 50vw;
   background-color: red;
 }
@@ -6676,7 +6714,7 @@ li {
   box-sizing: content-box;
   height: 100px;
   margin-bottom: 20px;
-  box-shadow: 10px 10px 5px #50462c;
+  box-shadow: 10px 10px 5px #635e51;
   width: 90%;
   background-color: lime;
 }
@@ -6685,13 +6723,16 @@ figure {
   margin-left: 0;
 }
 
+.restricted {
+  max-width: 220px;
+}
+
 .framed {
   border: thin #c0c0c0 solid;
   display: flex;
   flex-flow: column;
   padding: 5px;
-  max-width: 220px;
-  box-shadow: 10px 10px 5px #50462c;
+  box-shadow: 10px 10px 5px #635e51;
 }
 .framed figcaption {
   background-color: #222;
@@ -6739,6 +6780,10 @@ figure {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+.fullwidth {
+  grid-column: 1/4;
 }
 
 .techtitle {
@@ -6797,6 +6842,10 @@ figure {
   .landingpage {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .fullwidth {
+    grid-column: 1/3;
+  }
 }
 @media (max-width: 810px) {
   .title {
@@ -6821,5 +6870,9 @@ figure {
 
   .techcontainer {
     gap: 1rem;
+  }
+
+  .fullwidth {
+    grid-column: 1/2;
   }
 }

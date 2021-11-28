@@ -10,7 +10,7 @@ Jag heter Kent Sjöberg. Bor med fru och barn i Göteborg, som har varit min hem
 Läste till Sjökapten på 80-talet och har verkat inom sjöfartsnäringen sedan dess.
 Mesta tiden har jag arbetat som lots men, tidigare även i flera andra befattningar. Numera arbetar jag  deltid som befälhavare i ett färjerederi när jag inte roar mig med att försöka lära mig att programmera.
 
-<figure class="framed">
+<figure class="framed restricted">
     <img src="image/kent.jpg" alt="Bild på mig">
     <figcaption>Jag</figcaption>
 </figure>
