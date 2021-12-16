@@ -85,5 +85,5 @@ Template: technology
     </a>
 </div>
 <div class="embed-container fullwidth">
-    <iframe src="https://www.youtube.com/embed/Aw95ZZ2YqxI" frameborder="0" allowfullscreen></iframe>
+    <iframe title="Crashes" src="https://www.youtube.com/embed/Aw95ZZ2YqxI" frameborder="0" allowfullscreen></iframe>
 </div>

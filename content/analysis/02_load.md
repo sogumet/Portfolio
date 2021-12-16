@@ -31,7 +31,7 @@ Resultat
 
 
 <div class="embed-container-data">
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT371NIvzfR19Ha6aDWlTnv63eR0lHVN43HNiDVHkzeVlGiKk5wWw1p1MuDgBVUm4045P2Dj2lmOQZI/pubhtml?widget=true&amp;headers=false"></iframe>
+    <iframe title="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT371NIvzfR19Ha6aDWlTnv63eR0lHVN43HNiDVHkzeVlGiKk5wWw1p1MuDgBVUm4045P2Dj2lmOQZI/pubhtml?widget=true&amp;headers=false"></iframe>
 </div>
 <img src="../image/report/innebandy.jpg" alt="MTR"></img>  
 
@@ -59,7 +59,7 @@ Länkar
 <h3 class="navlinks"><a href="https://www.svenskhandboll.se/HandbolliSverige/">www.svenskhandboll.se/HandbolliSverige</a></h3>
    
 <div class="embed-container-data">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROOdjp4U00Q7Zz03lWza6SE-XOckC2X4gZy8GOnXRxl92A8aRwS46q_rtmYqVeI8KPGt6X2uobK36Q/pubhtml?widget=true&amp;headers=false"></iframe>  
+<iframe title="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROOdjp4U00Q7Zz03lWza6SE-XOckC2X4gZy8GOnXRxl92A8aRwS46q_rtmYqVeI8KPGt6X2uobK36Q/pubhtml?widget=true&amp;headers=false"></iframe>  
 </div>  
 
 <img src="../image/report/handboll.jpg" alt="MTR"></img>  
@@ -93,7 +93,7 @@ Länkar
 <h3 class="navlinks"><a href="http://www.svensksimidrott.se/Utbildning/">www.svensksimidrott.se/Utbildning</a></h3> 
 
 <div class="embed-container-data">
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtokVRc6B5zhteSCo8All_uKy9dtBa3e2A8u22U3hH2s5QD6259HDz2Fas9w4wM0kGQg4e5SbQTQVy/pubhtml?widget=true&amp;headers=false"></iframe>  
+<iframe title="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRtokVRc6B5zhteSCo8All_uKy9dtBa3e2A8u22U3hH2s5QD6259HDz2Fas9w4wM0kGQg4e5SbQTQVy/pubhtml?widget=true&amp;headers=false"></iframe>  
 </div>  
 
 <img src="../image/report/simning.jpg" alt="MTR"></img>  
