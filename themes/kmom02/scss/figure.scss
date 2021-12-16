@@ -8,6 +8,7 @@ figure {
     flex-flow: column;
     padding: 5px;
     box-shadow: 10px 10px 5px $shaddow-color;
+    background-color: rgb(255, 255, 255);
 
     figcaption {
         background-color: #222;
@@ -24,4 +25,12 @@ figure {
 
 .restricted {
     max-width: 220px;
+}
+
+.no-margin-top {
+    margin-top: 0;
+}
+
+.left {
+    float: left;
 }

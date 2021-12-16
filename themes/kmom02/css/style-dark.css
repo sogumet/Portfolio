@@ -6526,6 +6526,12 @@ ul {
   padding-left: 1.5em;
 }
 
+.thin {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 .hidden {
   display: none !important;
 }
@@ -6549,6 +6555,7 @@ body {
   flex: 1 0 auto;
   padding: 1rem;
   background-color: #403d36;
+  background-image: none;
 }
 
 img,
@@ -6660,6 +6667,7 @@ li {
 
 .title p {
   font-style: italic;
+  margin-bottom: 0;
 }
 
 .old-fashioned {
@@ -6733,6 +6741,7 @@ figure {
   flex-flow: column;
   padding: 5px;
   box-shadow: 10px 10px 5px #635e51;
+  background-color: #cab685;
 }
 .framed figcaption {
   background-color: #222;
@@ -6830,6 +6839,14 @@ figure {
 }
 
 .navlinks a:visited {
+  color: #8c8676;
+}
+
+.navlinks {
+  color: #bfb7a1;
+}
+
+.navlinks:visited {
   color: #8c8676;
 }
 

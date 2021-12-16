@@ -6526,6 +6526,12 @@ ul {
   padding-left: 1.5em;
 }
 
+.thin {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
 .hidden {
   display: none !important;
 }
@@ -6549,6 +6555,7 @@ body {
   flex: 1 0 auto;
   padding: 1rem;
   background-color: #eefafd;
+  background-image: url("../../../assets/img/y-so-serious-white.png");
 }
 
 img,
@@ -6660,6 +6667,7 @@ li {
 
 .title p {
   font-style: italic;
+  margin-bottom: 0;
 }
 
 .old-fashioned {
@@ -6729,6 +6737,7 @@ figure {
   flex-flow: column;
   padding: 5px;
   box-shadow: 10px 10px 5px #868a8b;
+  background-color: white;
 }
 .framed figcaption {
   background-color: #222;
@@ -6740,6 +6749,14 @@ figure {
 
 .restricted {
   max-width: 220px;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+.left {
+  float: left;
 }
 
 .wrapper {
@@ -6822,6 +6839,14 @@ figure {
 }
 
 .navlinks a:visited {
+  color: #d310d3;
+}
+
+.navlinks {
+  color: #0b0bff;
+}
+
+.navlinks:visited {
   color: #d310d3;
 }
 
